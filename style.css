@@ -14,7 +14,7 @@ body {
 }
 
 .encabezado {
-    background-image: url('Imagen1.jpg') ;
+    background-image: url('imagen.jpg') ;
     background-size: inherit;
     background-position-x: center;
     background-position-y: -215px;
