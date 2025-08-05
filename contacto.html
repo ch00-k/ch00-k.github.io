@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header class="encabezado">
+    <h1>Christian Charbonnier</h1>
+    <p>Estudiante de Lic. en Tecnologias de la Información(UTEC) y Jovenes a Programar</p>
+  </header>
+
+  
+
+  <section class="links">
+    <a  href="index.html" target="_self">Inicio</a>
+    <a  href="sobre_mi.html" target="_self">Sobre mí</a>
+    <a  href="experiencia.html" target="_self">Mi experiencia</a>
+    <a class="activo" href="contacto.html" target="_self">Contacto</a>
+  </section>
+    
+    <section  class= "marco" class="contacto">
+    <h2>Contacto</h2>
+    <hr>
+     <ul id="contacto">        
+        <li><a id="discord" href="https://www.facebook.com" target="_blank" rel="noopener">Discord</a></li>        
+        <li><a id="github" href="https://github.com/ch00-k" target="_blank" rel="noopener">Github</a></li>     
+        <li><a id="instagram" href="https://www.instagram.com/christian_charbonnier/profilecard/?igsh=MXRtdHpma3FzdXp4cA==" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a id="linkedin" href="https://www.linkedin.com/christiancharbonnier" target="_blank" rel="noopener">Linkedin</a></li>        
+    </ul>
+    </section>
+
+
+    <hr>
+
+    <section  class= "marco"  class="formulario">
+    <h2>Formulario de contacto</h2>
+    <hr>
+    <form name="contactar" action="" method="post">
+        <label>Para: <input type="text" name="destinatario"></label>
+        <br>
+        <label>Tématica: <select name="tematica">
+            <option value="" disabled selected>-- Elige un tema --</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otro">Otro</option></select>
+        </label>
+        <br>
+        <label>Asunto: <input type="text" name="asunto"></label>
+        <br>
+        <label>Cuerpo: <textarea name="cuerpo" row=""></textarea>
+        <br>
+        <input type="submit" value="Enviar"></label>
+    </form>   
+    </section>
+</body>
+</html>
